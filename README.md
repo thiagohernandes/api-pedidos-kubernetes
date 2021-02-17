@@ -26,7 +26,7 @@ docker build -t api-pedidos .
 skaffold run
 ```
 
-### [Step 4] Open API-PRODUTOS
+### [Step 4] Open API-PEDIDOS
 ```
 minikube service api-pedidos
 open on browser: http://[ip-service]:30001/api/pedidos/v1/produtos
