@@ -22,6 +22,7 @@ kubectl get services
 git clone https://github.com/thiagohernandes/api-pedidos-kubernetes.git
 cd api-pedidos-kubernetes
 mvn clean package
+docker build -t api-pedidos .
 skaffold run
 ```
 
