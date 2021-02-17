@@ -1,0 +1,7 @@
+server:
+  port: 7071
+
+kubernetes:
+  url:
+    v1: http://192.168.49.2:30000
+    v2: http://api-produtos:7070
