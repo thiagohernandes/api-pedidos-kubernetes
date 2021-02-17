@@ -28,4 +28,5 @@ skaffold run
 ### [Step 4] Open API-PRODUTOS
 ```
 minikube service api-pedidos
+open on browser: http://[ip-service]:30001/api/pedidos/v1/produtos
 ```
