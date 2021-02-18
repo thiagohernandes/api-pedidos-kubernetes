@@ -8,7 +8,7 @@
 ```
 minikube start
 minikube dashboard
-minikube get all
+kubectl get all
 kubectl get pod -w
 kubectl get services
 ```
