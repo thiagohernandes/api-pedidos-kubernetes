@@ -6,6 +6,7 @@
 
 - install: https://minikube.sigs.k8s.io/docs/start/
 ```
+sudo usermod -aG docker $USER && newgrp docker
 minikube start
 minikube dashboard
 kubectl get all
